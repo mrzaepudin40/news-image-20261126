@@ -5,10 +5,11 @@ Writes the image that sums up the world's news of Thursday
 26 November 2026 to /output/entry.png.
 
 The image is a broadsheet drawn for this bounty: masthead with the
-date, two lead stories (US tariff rates on 14 economies; Kim Jong
-Un calling North Korea's nuclear expansion irreversible), six
-regional stories, and a timeline of the day. It is stored in this
-repository as entry.png (1024x1024, under 1 MiB).
+date and a date check, three lead stories (US tariff rates on 14
+economies; the Cairo tanker fire; missiles downed over Riyadh),
+49 stories across nine sections and 20 fields, a by-the-numbers
+strip, and a timeline of the day. It is stored in this repository
+as entry.png (1024x1024, under 1 MiB).
 
 Standard library only, no network, fully deterministic: every run
 copies the same bytes to the same path.
