@@ -7,12 +7,17 @@ Writes the image that sums up the world's news of Thursday
 The image is a broadsheet drawn for this bounty: masthead with the
 date and a date check, three lead stories (US tariff rates on 14
 economies; the Cairo tanker fire; missiles downed over Riyadh),
-49 stories across nine sections and 20 fields, a by-the-numbers
+39 stories across nine sections and 20 fields, a by-the-numbers
 strip, and a timeline of the day. It is stored in this repository
 as entry.png (1024x1024, under 1 MiB).
 
 Standard library only, no network, fully deterministic: every run
 copies the same bytes to the same path.
+
+Version 3 is a legibility-first redesign of the version 2 asset:
+fewer stories (39 instead of 49) so every story line fits on one
+line at a larger 16px type, with larger lead panels and section
+icons and more whitespace between sections.
 """
 
 import os
